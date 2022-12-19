@@ -1,0 +1,44 @@
+.main {
+  background-color: #fafafa;
+}
+
+.post-text-box {
+  padding: 7rem 7rem 4rem;
+}
+.post-body {
+  padding: 3.6rem 7rem 7rem;
+  color: #151515;
+}
+.post-date {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  color: #151515;
+}
+
+.post-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 2.8rem;
+  color: #151515;
+}
+
+.post-description {
+  font-size: 1.6rem;
+  color: #151515;
+}
+
+.blog-img {
+  width: 100%;
+}
+
+@media (max-width: 48em) {
+  .post-text-box {
+    padding: 5rem 0 6rem;
+  }
+  .post-body {
+    padding: 3.6rem 0 5rem;
+  }
+}
